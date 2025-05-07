@@ -87,20 +87,21 @@ function playGame(){
 
     }
           if (humanScore>computerScore) {
-           alert(` you win the game! you have ${humanScore} points and computer has ${computerScore} points.`);
+           console.log(` you win the game! you have ${humanScore} points and computer has ${computerScore} points.`);
           }
           else if (humanScore<computerScore) {
-            alert(` you lose the game! you have ${humanScore} points and computer has ${computerScore} points.`);
+            console.logt(` you lose the game! you have ${humanScore} points and computer has ${computerScore} points.`);
         
           }
            else   {
-            alert(` the game is a tie! you have ${humanScore} points and computer has ${computerScore} points.`);
+            console.log(` the game is a tie! you have ${humanScore} points and computer has ${computerScore} points.`);
         
           }
           
          
 
 }
+
 playGame();
   
 
